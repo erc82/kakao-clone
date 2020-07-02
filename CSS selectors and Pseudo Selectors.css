@@ -1,0 +1,21 @@
+input[type="submit"] {
+  background-color: red;
+}
+input[type="password"] {
+  background-color: yellow;
+}
+input {
+  border: 2px solid blue;
+}
+.box:nth-child(3n + 1) {
+  background-color: green;
+  display: block;
+  height: 100px;
+}
+.box {
+  background-color: hotpink;
+  height: 100px;
+}
+.container > .box {
+  background-color: tan;
+}
